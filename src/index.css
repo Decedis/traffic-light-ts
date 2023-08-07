@@ -1,0 +1,84 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.container {
+  height: 90%;
+  width: 100%;
+  display: flex;
+}
+
+.left,
+.right {
+  height: 100%;
+  width: 50%;
+  outline: 5px solid black;
+}
+
+.traffic-light-box {
+  background-color: #5a5a5a;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.traffic-light-box h2 {
+  padding: 0px;
+  margin: 0px;
+  margin: 20px;
+  color: white;
+}
+
+.traffic-light {
+  height: 500px;
+  width: 200px;
+  background-color: #f5d81b;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.traffic-light > .circle {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  border: 3px solid black;
+}
+
+.next-state-button {
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.black {
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: #2ad111;
+}
+
+.yellow {
+  background-color: yellow;
+}
